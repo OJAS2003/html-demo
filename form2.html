@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <title>gym membership form</title>
+    <link rel="stylesheet" href="gym.css">
+</head>
+<body>
+    <fieldset>
+        <legend>GYM MEMBERSHIP</legend>
+    <form>
+    <h1>gym membership form</h1>
+    <hr/>
+    Name:<input type="text" name="name" value="" placeholder="Enter your name here"/>
+    <br/>
+    <br/>
+    Age:<input type="radio" value="18+" name="Age"/>18+
+    <input type="radio" value="below 18" name="Age"/>below 18
+    <br/>
+    <br/>
+    Gender:<input type="radio" value="m" name="Gender"/>Male
+    <input type="radio" value="f" name="Gender"/>Female
+    <br/>
+    <br/>
+    country(which branch):<select>
+        <option value="enter your country">enter your country</option>
+        <optgroup label="Asia">
+            <option value="India">India</option>
+            <option value="sri lanka">sri lanka</option>
+            <option value="russia">russia</option>
+        </optgroup>
+        <optgroup label="Europe">
+            <option value="Ukrane">Ukrane</option>
+            <option value="France">France</option>
+            <option value="Spain">Spain</option>
+            <option value="USA">USA</option>
+
+        </optgroup>
+    </select>
+    <br/>
+    <br/>
+    Present Address:<textarea name="Address" value="Address" placeholder="Enter your present address"></textarea>
+    <br/>
+    <br/>
+    other hobbies:<input type="checkbox" name="hobbies[]"/>sports
+    <input type="checkbox" name="hobbies[]"/>Reading books
+    <input type="checkbox" name="hobbies[]"/>Singing
+    <input type="checkbox" name="hobbies[]"/>Dancing
+    <br/>
+    <br/>
+    Upload Fees recipt:<input type="file" name="file" value="recipt"/>
+    <br/>
+    <br/>
+    <input type="submit" value="Submit"/>
+    <input type="submit" value="Reset"/>
+
+
+    
+
+</form>
+</fieldset>
+    
+</body>
+</html>
